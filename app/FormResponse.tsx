@@ -10,7 +10,7 @@ const FormResponse = (props: Props) => {
     return
   }
   return (
-    <div className="relative bottom-0 right-0 left-0 w-[795px] h-[775px] m-auto mt-[70px] align-bottom rounded-md shadow-2xl bg-opacity-50">
+    <div className="relative bottom-0 right-0 left-0 w-[795px] h-[775px] m-auto mt-[70px] align-bottom rounded-md bg-opacity-50">
       <div className="absolute bottom-0 left-0 w-full">
         {props.response.map((chat, index) => (
           <div
