@@ -10,10 +10,16 @@ const FormResponse = (props: Props) => {
     return
   }
   return (
-    <div className="absolute bottom-[100px]  w-screen text-center ">
-      {props.response.map((chat) => (
-        <p key={chat}>{chat}</p>
-      ))}
+    <div className="relative bottom-0 right-0 left-0 w-[795px] h-[800px] m-auto mt-[20px] align-bottom rounded-md bg-[#292929] ">
+      <span className="absolute bottom-0 left-0 p-[10px]">
+        {props.response.map((chat, index) => (
+          <>
+            <p key={index} className="">
+              {chat}
+            </p>
+          </>
+        ))}
+      </span>
     </div>
   )
 }
