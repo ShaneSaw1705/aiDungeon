@@ -10,15 +10,15 @@ const FormResponse = (props: Props) => {
     return
   }
   return (
-    <div className="relative bottom-0 right-0 left-0 w-[795px] h-[775px] m-auto mt-[70px] align-bottom rounded-md bg-[#6d6d6d] shadow-2xl bg-opacity-50">
-      <div className="absolute bottom-0 left-0 p-[10px] w-full">
+    <div className="relative bottom-0 right-0 left-0 w-[795px] h-[775px] m-auto mt-[70px] align-bottom rounded-md shadow-2xl bg-opacity-50">
+      <div className="absolute bottom-0 left-0 w-full">
         {props.response.map((chat, index) => (
           <div
             key={index}
-            className="bg-[#6d6d6d] p-[10px] m-[10px] bg-opacity-75 shadow-sm rounded-md"
-            style={{ width: "fit-content" }}
+            className="bg-[#6d6d6d] p-[10px] mt-[10px] mb-[10px] bg-opacity-75 shadow-sm rounded-md"
+            style={{ width: 'fit-content' }}
           >
-            <p className="">{chat}</p>
+            <p className="chat-text">{chat}</p>
           </div>
         ))}
       </div>

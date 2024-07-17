@@ -28,7 +28,7 @@ const Form = () => {
       <div>
         <FormResponse response={response} />
       </div>
-      <div className="absolute bottom-0 right-0 left-0 w-[795px] m-auto text-center mb-[70px] bg-[#6d6d6d] p-[10px] rounded-md shadow-2xl bg-opacity-50">
+      <div className="absolute bottom-0 right-0 left-0 w-[795px] m-auto text-center mb-[70px] bg-[#6d6d6d] p-[10px] rounded-md shadow-2xl bg-opacity-75">
         {/* <form action={async formData => {
           await sendRequest(formData)
         }}> */}
