@@ -23,8 +23,6 @@ const Form = () => {
     setFormState(e.target.value)
   }
 
-
-
   return (
     <>
       <div>
