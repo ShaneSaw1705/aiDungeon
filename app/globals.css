@@ -6,6 +6,18 @@
   color: black;
 }
 
+#canvas {
+  display: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: 90px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
